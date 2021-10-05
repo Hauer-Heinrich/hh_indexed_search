@@ -12,13 +12,6 @@ use \TYPO3\CMS\Core\Utility\GeneralUtility;
 class CallIndexerMiddleware implements MiddlewareInterface {
 
     /**
-     * rootPageId
-     *
-     * @var integer
-     */
-    public $rootPageId = 1;
-
-    /**
      * Process an incoming server request and return a response, optionally delegating
      * response creation to a handler.
      *
